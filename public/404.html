@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Redirecting · Kalungi Isaac</title>
+    <meta name="robots" content="noindex" />
+    <script>
+      // Hosts without rewrite rules (e.g. project GitHub Pages) serve this file for deep links.
+      // Rewrite to the known repo base, then let the router read the original path.
+      (function () {
+        var segments = location.pathname.split('/').filter(Boolean);
+        var base = segments[0] ? '/' + segments[0] + '/' : '/';
+        var rest = segments.slice(1).join('/');
+        location.replace(base + '?/' + rest + location.search);
+      })();
+    </script>
+    <noscript><meta http-equiv="refresh" content="0; url=/" /></noscript>
+  </head>
+  <body></body>
+</html>
