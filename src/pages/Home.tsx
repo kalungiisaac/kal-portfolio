@@ -29,17 +29,16 @@ export default function Home() {
         <div className="section">
           <div className="section-head">
             <span className="label side">Index</span>
-            <span className="label side">Six pages, no filler</span>
+          
           </div>
 
           <div className="home-intro">
             <h2 id="home-index-title" className="display">
-              Hi, I&apos;m <em>Kal</em>. I build web apps from the database to the button.
+              Hi, I&apos;m <em>Kal</em>. I build web apps and all aplication softwares from the database to the button.
             </h2>
             <div>
               <p className="lead">
-                I work in {profile.location}, mostly with React, TypeScript and Node. This site is split into pages rather
-                than one long scroll, so you can go straight to what you came for.
+                I&apos;m in {profile.location}, mostly developing softwares with mordern techs like React, TypeScript and Node.
               </p>
               <div className="home-stats">
                 {stats.map((s) => (

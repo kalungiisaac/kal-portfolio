@@ -998,7 +998,7 @@ main {
   animation: none;
 }
 .marquee-sweep .marquee-item {
-  font-size: clamp(34px, 6.2vw, 92px);
+  font-size: clamp(15px, 6.2vw, 40px);
   font-family: var(--serif);
   padding-right: 48px;
   gap: 48px;
@@ -1017,7 +1017,7 @@ main {
   opacity: 0.45;
 }
 .marquee-sweep .is-muted .marquee-item {
-  font-size: clamp(24px, 4vw, 58px);
+  font-size: clamp(15px, 3vw, 34px);
 }
 
 /* ---------------------------------- marquee ------------------------- */
@@ -1052,7 +1052,7 @@ main {
   gap: 40px;
   padding-right: 40px;
   font-family: var(--serif);
-  font-size: clamp(26px, 3.4vw, 48px);
+  font-size: clamp(26px, 3vw, 28px);
   white-space: nowrap;
   letter-spacing: -0.02em;
 }
@@ -1063,7 +1063,7 @@ main {
 }
 .marquee-star {
   color: var(--acid);
-  font-size: 0.5em;
+  font-size: 0.4em;
   font-style: normal;
   -webkit-text-stroke: 0;
 }
